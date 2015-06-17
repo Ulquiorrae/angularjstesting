@@ -1,0 +1,254 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+
+
+#leftPanel {
+  background-color: #c8c8c8;
+  height: 1000px;
+  width:13%;
+}
+
+#middlePanel {
+  background-color: white;
+  width: 74%;
+}
+
+#rightPanel {
+  background-color: #c8c8c8;
+  height: 1000px;
+  width:13%;
+}
+
+#namesurname {
+  font-family: sans-serif;
+  line-height: normal;
+  font-size: 4em;
+  white-space: nowrap;
+  margin-top: 39px;
+  font-weight: bold;
+}
+
+#mytitle {
+  font-family: monospace;
+  font-size: 2em;
+  white-space: nowrap;
+  margin-top: -3%;
+  font-weight: bold;
+  margin-left: 1%;
+}
+
+#incity {
+  font-family: monospace;
+  font-size :30px;
+  white-space: nowrap;
+  margin-left: 15px;
+  }
+ 
+#from {
+  font-family: monospace;
+}
+
+#heart {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+
+#likes {
+ float: left;
+ font-size: 1.2em;
+ font-weight: bold;
+ position: absolute;
+ margin-left: 8%;
+ margin-top: 2%;
+}
+
+#users {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 2%;
+}
+
+
+#usernumber {
+ float: left;
+ font-size: 1.2em;
+ font-weight: bold;
+ position: absolute;
+ margin-left: 31%;
+ margin-top: 2%;;
+}
+
+#wrap {
+  position: relative;
+}
+
+#pufna {
+  width:230px; 
+  height:120px;
+  margin-top: 55%;
+}
+
+#from {
+  font-size: 1.3em;
+  margin-top: 98%;
+}
+
+.attributes {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.myatts {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.about {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-left: 8%;
+}
+
+#aboutMe {
+  width: 80%;
+   height: 8.4em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+}
+
+#bluebar {
+  background-color: #64d9e6;
+  height:100vh;
+}
+
+.body {
+  display: table;
+  column-rule-color: white;
+  }
+  
+ #envelope {
+   margin-left: 50%;
+   margin-top: -50%;
+ }
+ 
+ .function {
+    margin-left: 42%;
+    margin-top: -15%;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+     white-space: nowrap;
+ }
+ 
+ .addtonetwork {
+    margin-left: 29%;
+    margin-top: -15%;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    white-space: nowrap;
+ }
+ 
+ .giveaheart {
+    margin-left: 35%;
+    margin-top: -15%;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+    white-space: nowrap;
+ }
+ 
+ #avatar {
+   margin-top: 53%;
+   margin-left: 5%;
+ }
+ 
+ .circle-image{
+    width:165px;
+    height:165px;
+    border-radius:50%;
+    background-image:url("http://placekitten.com/g/200/400");
+    display:block;
+    background-position-y:25% 
+}
+
+#sq {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+#porto {
+  margin-top: -9%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-decoration:none;
+}
+
+
+
+#desc {
+  margin-top: -2%;
+  margin-left: 5%;
+  font-weight: bold;
+  font-size: 1em;
+  color:#c8c8c8;
+}
+
+.footerBgColor{
+	background-color:#3C3C3C;
+}
+.footerHeight{
+	height:150px;
+}
+.albumUploadBgroundImg{
+	display:block;
+	margin:auto;	
+}
+
+.verticalLine{
+	border-left:6px solid #999998;
+	height:80px;
+}
+
+.headerImage{
+	width:16%;
+}
+
+.headerRightAlignment{
+	margin-right: -20%;
+}
+
+.body{
+	background-color: #DBDBDB;
+}
+
